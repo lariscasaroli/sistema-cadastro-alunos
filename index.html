@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+ 
+    <!-- Configuração de caracteres --> 
+    <meta charset="UTF-8"> 
+ 
+    <!-- Configuração para dispositivos móveis --> 
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0"> 
+ 
+    <!-- Título da aplicação --> 
+    <title>Sistema de Cadastro de Alunos</title> 
+ 
+    <!-- Arquivo de estilos --> 
+    <link rel="stylesheet" href="css/style.css"> 
+ 
+</head> 
+ 
+<body> 
+ 
+    <!-- Cabeçalho da aplicação --> 
+    <header> 
+ 
+        <h1>Sistema de Cadastro de Alunos</h1> 
+ 
+    </header> 
+ 
+    <!-- Conteúdo principal --> 
+    <main> 
+ 
+        <!-- Formulário de cadastro --> 
+        <section> 
+ 
+            <h2>Cadastrar Aluno</h2> 
+ 
+            <form id="formAluno"> 
+ 
+                <!-- Campo nome --> 
+                <label for="nome"> 
+                    Nome: 
+                </label> 
+ 
+                <input 
+                    type="text" 
+                    id="nome" 
+                    required 
+                > 
+ 
+                <!-- Campo e-mail --> 
+                <label for="email"> 
+                    E-mail: 
+                </label> 
+ 
+                <input 
+                    type="email" 
+                    id="email" 
+                    required 
+                > 
+ 
+                <!-- Botão --> 
+                <button type="submit"> 
+                    Cadastrar 
+                </button> 
+ 
+            </form> 
+ 
+        </section> 
+ 
+        <!-- Lista de alunos --> 
+        <section> 
+ 
+            <h2>Alunos cadastrados</h2> 
+ 
+            <ul id="listaAlunos"> 
+ 
+                <!-- JavaScript adicionará os alunos aqui --> 
+ 
+            </ul> 
+ 
+        </section> 
+ 
+    </main> 
+ 
+    <!-- JavaScript --> 
+    <script src="js/app.js"></script> 
+ 
+</body> 
+ 
+</html>
